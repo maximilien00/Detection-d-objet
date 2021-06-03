@@ -36,7 +36,7 @@ net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 # initialiser la caméra du pi, attendre 2s pour la mise au point ,
 # initialiser le compteur FPS
 print("...démarrage de la Picamera...")
-vs = VideoStream(1).start()
+vs = VideoStream(0).start()   #Changer la valeur entre paranthèses pour les différentes caméras !
 time.sleep(2.0)
 fps = FPS().start()
  
