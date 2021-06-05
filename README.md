@@ -41,6 +41,14 @@ pip install imutils
   
   Pour **arreter le programme** il suffit de faire **Ctrl + c** ou d'appuyer sur la lettre **q** de votre clavier.
   
+- Si vous utilisé PyCharm:
+
+  Cliquer sur le bouton **Terminal** qui se situe en bas à gauche de votre écran, puis entrer la commande suivante :
+  
+  ```
+  python reconnaissance_objets.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+  ```
+  
 - Si vous utilisé l'Invite de Commande ou le PowerShell:
 
   Aller dans le répertoire où se trouve le dossier que vous venez de dezipper avec la ligne de commande suivante (qu'il faut adapter à votre situation):
