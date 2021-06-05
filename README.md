@@ -5,6 +5,7 @@
 **Language de Programmation : Python**
 
 Le code suivant fonctionne sur un ordinateur (tournant sous Windows) ou sur un Raspberry pi Modèle B+ avec Rasbian comme OS, le reste je n'ai pas essayé.
+Vous trouverez la liste des objets détectés par le programme dans la partie [Index](https://github.com/maximilien00/Detection-d-objet/blob/main/README.md#index- "Index").
 
 # Instructions : 
 
@@ -48,6 +49,7 @@ pip install imutils
   ```
   python reconnaissance_objets.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
   ```
+  Pour **arreter le programme** il suffit de faire **Ctrl + c**.
   
 - Si vous utilisé l'Invite de Commande ou le PowerShell:
 
@@ -62,7 +64,7 @@ pip install imutils
   python reconnaissance_objets.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
   ```
   
-  Pour Arreter le programme il suffit de faire Ctrl + c
+  Pour Arreter le programme il suffit de faire **Ctrl + c**
   
 # Index :
 
