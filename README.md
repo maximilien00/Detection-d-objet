@@ -11,7 +11,7 @@ Vous trouverez la liste des objets détectés par le programme dans la partie [I
 
 1. Ecrire les commandes suivantes dans l'Invite de commande (avec les droit administarteurs de préférences) :
 
-```cmd
+```shell
 pip install opencv-python
 pip install numpy
 pip install imutils 
