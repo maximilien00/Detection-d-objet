@@ -41,6 +41,12 @@ pip install imutils
   
 - Si vous utilisé l'Invite de Commande ou le PowerShell:
 
+  Aller dans le répertoire où se trouve le dossier que vous venez de dezipper avec la ligne de commande suivante (qu'il faut adapter à votre situation):
+  
+   ```
+  cd C:\Users\NomUtilisateur\Dossier
+  ```
+
   Entrer la commande suivante :
   ```
   python reconnaissance_objets.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
