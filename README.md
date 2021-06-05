@@ -39,6 +39,8 @@ pip install imutils
 
   Une fois ceci vue, il suffit de mettre devant la caméra un objet figurant parmi la liste d'objets indiqué en Index.
   
+  Pour Arreter le programme il suffit de faire Ctrl + c ou d'appuyer sur la lettre **q** de votre clavier.
+  
 - Si vous utilisé l'Invite de Commande ou le PowerShell:
 
   Aller dans le répertoire où se trouve le dossier que vous venez de dezipper avec la ligne de commande suivante (qu'il faut adapter à votre situation):
@@ -51,6 +53,8 @@ pip install imutils
   ```
   python reconnaissance_objets.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
   ```
+  
+  Pour Arreter le programme il suffit de faire Ctrl + c
   
 # Index :
 
