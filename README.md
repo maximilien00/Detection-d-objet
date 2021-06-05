@@ -11,7 +11,7 @@ Vous trouverez la liste des objets détectés par le programme dans la partie [I
 
 1. Ecrire les commandes suivantes dans l'Invite de commande (avec les droit administarteurs de préférences) :
 
-``` 
+```cmd
 pip install opencv-python
 pip install numpy
 pip install imutils 
@@ -26,7 +26,7 @@ pip install imutils
   Une fenêtre souvre puis une autre plus petite, la seconde porte le titre **Customize** suivi du nom de votre fichier.
   Dans cette fenêtre vous devez écrire la commande suivante : 
 
-  ``` 
+  ```
   --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
   ``` 
 
