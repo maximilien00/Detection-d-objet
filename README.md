@@ -39,7 +39,7 @@ pip install imutils
 
   Une fois ceci vue, il suffit de mettre devant la caméra un objet figurant parmi la liste d'objets indiqué en Index.
   
-  Pour Arreter le programme il suffit de faire Ctrl + c ou d'appuyer sur la lettre **q** de votre clavier.
+  Pour **arreter le programme** il suffit de faire **Ctrl + c** ou d'appuyer sur la lettre **q** de votre clavier.
   
 - Si vous utilisé l'Invite de Commande ou le PowerShell:
 
